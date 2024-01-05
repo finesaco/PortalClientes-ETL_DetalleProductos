@@ -316,7 +316,7 @@
       <attributes/>
       <specification_method>filename</specification_method>
       <trans_object_id/>
-      <filename>/home/portal/PortalClientes-ETL_DetalleProductos/EjecutaProcedimientos/ejecuta_procedimiento_siif_vehiculos.ktr</filename>
+      <filename>${Internal.Entry.Current.Directory}/EjecutaProcedimientos/ejecuta_procedimiento_siif_vehiculos.ktr</filename>
       <transname/>
       <arg_from_previous>N</arg_from_previous>
       <params_from_previous>N</params_from_previous>
@@ -355,7 +355,7 @@
       <attributes/>
       <specification_method>filename</specification_method>
       <trans_object_id/>
-      <filename>/home/portal/PortalClientes-ETL_DetalleProductos/EjecutaProcedimientos/ejecuta_procedimiento_siif_finanprimas.ktr</filename>
+      <filename>${Internal.Entry.Current.Directory}/EjecutaProcedimientos/ejecuta_procedimiento_siif_finanprimas.ktr</filename>
       <transname/>
       <arg_from_previous>N</arg_from_previous>
       <params_from_previous>N</params_from_previous>
@@ -394,7 +394,7 @@
       <attributes/>
       <specification_method>filename</specification_method>
       <trans_object_id/>
-      <filename>/home/portal/PortalClientes-ETL_DetalleProductos/IngestaDatos/Finanprimas/ejecuta_ingesta_data_polizas.ktr</filename>
+      <filename>${Internal.Entry.Current.Directory}/IngestaDatos/Finanprimas/ejecuta_ingesta_data_polizas.ktr</filename>
       <transname/>
       <arg_from_previous>N</arg_from_previous>
       <params_from_previous>N</params_from_previous>
@@ -433,7 +433,7 @@
       <attributes/>
       <specification_method>filename</specification_method>
       <trans_object_id/>
-      <filename>/home/portal/PortalClientes-ETL_DetalleProductos/IngestaDatos/Finanprimas/ejecuta_ingesta_data_detalle.ktr</filename>
+      <filename>${Internal.Entry.Current.Directory}/IngestaDatos/Finanprimas/ejecuta_ingesta_data_detalle.ktr</filename>
       <transname/>
       <arg_from_previous>N</arg_from_previous>
       <params_from_previous>N</params_from_previous>
@@ -472,7 +472,7 @@
       <attributes/>
       <specification_method>filename</specification_method>
       <trans_object_id/>
-      <filename>/home/portal/PortalClientes-ETL_DetalleProductos/IngestaDatos/Vehiculos/ejecuta_ingesta_data_riesgo.ktr</filename>
+      <filename>${Internal.Entry.Current.Directory}/IngestaDatos/Vehiculos/ejecuta_ingesta_data_riesgo.ktr</filename>
       <transname/>
       <arg_from_previous>N</arg_from_previous>
       <params_from_previous>N</params_from_previous>
@@ -511,7 +511,7 @@
       <attributes/>
       <specification_method>filename</specification_method>
       <trans_object_id/>
-      <filename>/home/portal/PortalClientes-ETL_DetalleProductos/IngestaDatos/Vehiculos/ejecuta_ingesta_data_vida.ktr</filename>
+      <filename>${Internal.Entry.Current.Directory}/IngestaDatos/Vehiculos/ejecuta_ingesta_data_vida.ktr</filename>
       <transname/>
       <arg_from_previous>N</arg_from_previous>
       <params_from_previous>N</params_from_previous>
@@ -550,7 +550,7 @@
       <attributes/>
       <specification_method>filename</specification_method>
       <trans_object_id/>
-      <filename>/home/portal/PortalClientes-ETL_DetalleProductos/IngestaDatos/Vehiculos/ejecuta_ingesta_data_detalle.ktr</filename>
+      <filename>${Internal.Entry.Current.Directory}/IngestaDatos/Vehiculos/ejecuta_ingesta_data_detalle.ktr</filename>
       <transname/>
       <arg_from_previous>N</arg_from_previous>
       <params_from_previous>N</params_from_previous>
@@ -598,7 +598,7 @@
       <add_date>N</add_date>
       <add_time>N</add_time>
       <insertScript>Y</insertScript>
-      <script>python3 /home/portal/PortalClientes-ETL_DetalleProductos/FalloEmail/ingestas/vehiculos/vida.py</script>
+      <script>python3 /home/products/DetalleProductos/FalloEmail/ingestas/vehiculos/vida.py</script>
       <loglevel>Basic</loglevel>
       <parallel>N</parallel>
       <draw>Y</draw>
@@ -623,7 +623,7 @@
       <add_date>N</add_date>
       <add_time>N</add_time>
       <insertScript>Y</insertScript>
-      <script>python3 /home/portal/PortalClientes-ETL_DetalleProductos/FalloEmail/ingestas/vehiculos/riesgo.py</script>
+      <script>python3 /home/products/DetalleProductos/FalloEmail/ingestas/vehiculos/riesgo.py</script>
       <loglevel>Basic</loglevel>
       <parallel>N</parallel>
       <draw>Y</draw>
@@ -648,7 +648,7 @@
       <add_date>N</add_date>
       <add_time>N</add_time>
       <insertScript>Y</insertScript>
-      <script>python3 /home/portal/PortalClientes-ETL_DetalleProductos/FalloEmail/ingestas/vehiculos/detalle.py</script>
+      <script>python3 /home/products/DetalleProductos/FalloEmail/ingestas/vehiculos/detalle.py</script>
       <loglevel>Basic</loglevel>
       <parallel>N</parallel>
       <draw>Y</draw>
@@ -673,7 +673,7 @@
       <add_date>N</add_date>
       <add_time>N</add_time>
       <insertScript>Y</insertScript>
-      <script>python3 /home/portal/PortalClientes-ETL_DetalleProductos/FalloEmail/ingestas/finanprimas/polizas.py</script>
+      <script>python3 /home/products/DetalleProductos/FalloEmail/ingestas/finanprimas/polizas.py</script>
       <loglevel>Basic</loglevel>
       <parallel>N</parallel>
       <draw>Y</draw>
@@ -698,7 +698,7 @@
       <add_date>N</add_date>
       <add_time>N</add_time>
       <insertScript>Y</insertScript>
-      <script>python3 /home/portal/PortalClientes-ETL_DetalleProductos/FalloEmail/ingestas/finanprimas/detalle.py</script>
+      <script>python3 /home/products/DetalleProductos/FalloEmail/ingestas/finanprimas/detalle.py</script>
       <loglevel>Basic</loglevel>
       <parallel>N</parallel>
       <draw>Y</draw>
@@ -723,7 +723,7 @@
       <add_date>N</add_date>
       <add_time>N</add_time>
       <insertScript>Y</insertScript>
-      <script>python3 /home/portal/PortalClientes-ETL_DetalleProductos/FalloEmail/procedimientos/email_falla_etl_vehiculos.py</script>
+      <script>python3 /home/products/DetalleProductos/FalloEmail/procedimientos/email_falla_etl_vehiculos.py</script>
       <loglevel>Basic</loglevel>
       <parallel>N</parallel>
       <draw>Y</draw>
@@ -748,7 +748,7 @@
       <add_date>N</add_date>
       <add_time>N</add_time>
       <insertScript>Y</insertScript>
-      <script>python3 /home/portal/PortalClientes-ETL_DetalleProductos/FalloEmail/procedimientos/email_falla_etl_finanprimas.py</script>
+      <script>python3 /home/products/DetalleProductos/FalloEmail/procedimientos/email_falla_etl_finanprimas.py</script>
       <loglevel>Basic</loglevel>
       <parallel>N</parallel>
       <draw>Y</draw>

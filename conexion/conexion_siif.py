@@ -4,7 +4,7 @@ import os
 
 
 def db2_connection():
-    db2_url = "jdbc:as400://172.18.116.9/FINESAAS"
+    db2_url = "jdbc:as400://172.18.115.7/FINESAAS"
     db2_user = "USUARIOPHP"
     db2_password = "S0p0rt3#"
     jt400_jar = "jt400.jar"
