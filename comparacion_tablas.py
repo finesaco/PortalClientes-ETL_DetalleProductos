@@ -14,7 +14,7 @@ import os
 fecha = datetime.now()
 fecha_actual = fecha.strftime('%Y-%m-%d %H:%M')
 
-os.chdir('/home/PaymentHistory/conexion/')
+os.chdir('/home/portal/PortalClientes-ETL_DetalleProductos/conexion/')
 
 
 
