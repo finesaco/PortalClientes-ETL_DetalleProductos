@@ -438,7 +438,7 @@
   </notepads>
   <connection>
     <name>MARIAPRU BD</name>
-    <server>172.18.115.53</server>
+    <server>10.238.56.133</server>
     <type>MARIADB</type>
     <access>Native</access>
     <database>portal_clientes</database>
@@ -497,7 +497,7 @@
   </connection>
   <connection>
     <name>SIIF BD</name>
-    <server>172.18.116.9</server>
+    <server>172.18.115.7</server>
     <type>AS/400</type>
     <access>Native</access>
     <database>FINESAAS</database>
@@ -580,7 +580,7 @@ FINECONTAB.CREDETF P</sql>
         <name>ID</name>
         <length>15</length>
         <precision>0</precision>
-        <origin>CONSULTA CREHIST</origin>
+        <origin>CONSULTA DETALLE</origin>
         <comments>ID</comments>
         <conversion_Mask>####0;-####0</conversion_Mask>
         <decimal_symbol>,</decimal_symbol>
@@ -603,7 +603,7 @@ FINECONTAB.CREDETF P</sql>
         <name>CREDITODET</name>
         <length>15</length>
         <precision>0</precision>
-        <origin>CONSULTA CREHIST</origin>
+        <origin>CONSULTA DETALLE</origin>
         <comments>CREDITODET</comments>
         <conversion_Mask>####0;-####0</conversion_Mask>
         <decimal_symbol>,</decimal_symbol>
@@ -626,7 +626,7 @@ FINECONTAB.CREDETF P</sql>
         <name>PLAN</name>
         <length>3</length>
         <precision>0</precision>
-        <origin>CONSULTA CREHIST</origin>
+        <origin>CONSULTA DETALLE</origin>
         <comments>PLAN</comments>
         <conversion_Mask>####0;-####0</conversion_Mask>
         <decimal_symbol>,</decimal_symbol>
@@ -649,7 +649,7 @@ FINECONTAB.CREDETF P</sql>
         <name>NCT</name>
         <length>3</length>
         <precision>0</precision>
-        <origin>CONSULTA CREHIST</origin>
+        <origin>CONSULTA DETALLE</origin>
         <comments>NCT</comments>
         <conversion_Mask>####0;-####0</conversion_Mask>
         <decimal_symbol>,</decimal_symbol>
@@ -672,7 +672,7 @@ FINECONTAB.CREDETF P</sql>
         <name>FECHA_LIMITE</name>
         <length>9</length>
         <precision>0</precision>
-        <origin>CONSULTA CREHIST</origin>
+        <origin>CONSULTA DETALLE</origin>
         <comments>FECHA_LIMITE</comments>
         <conversion_Mask>####0;-####0</conversion_Mask>
         <decimal_symbol>,</decimal_symbol>
@@ -695,7 +695,7 @@ FINECONTAB.CREDETF P</sql>
         <name>CARGO_FIJO</name>
         <length>3</length>
         <precision>0</precision>
-        <origin>CONSULTA CREHIST</origin>
+        <origin>CONSULTA DETALLE</origin>
         <comments>CARGO_FIJO</comments>
         <conversion_Mask>####0;-####0</conversion_Mask>
         <decimal_symbol>,</decimal_symbol>
@@ -718,7 +718,7 @@ FINECONTAB.CREDETF P</sql>
         <name>VALOR_CF</name>
         <length>15</length>
         <precision>2</precision>
-        <origin>CONSULTA CREHIST</origin>
+        <origin>CONSULTA DETALLE</origin>
         <comments>VALOR_CF</comments>
         <conversion_Mask>####0.0#########;-####0.0#########</conversion_Mask>
         <decimal_symbol>,</decimal_symbol>
@@ -741,7 +741,7 @@ FINECONTAB.CREDETF P</sql>
         <name>DETALLE</name>
         <length>40</length>
         <precision>-1</precision>
-        <origin>CONSULTA CREHIST</origin>
+        <origin>CONSULTA DETALLE</origin>
         <comments>DETALLE</comments>
         <conversion_Mask/>
         <decimal_symbol>,</decimal_symbol>
@@ -764,7 +764,7 @@ FINECONTAB.CREDETF P</sql>
         <name>FECHA_ACTUALIZACION</name>
         <length>6</length>
         <precision>-1</precision>
-        <origin>CONSULTA CREHIST</origin>
+        <origin>CONSULTA DETALLE</origin>
         <comments>FECHA_ACTUALIZACION</comments>
         <conversion_Mask/>
         <decimal_symbol>,</decimal_symbol>

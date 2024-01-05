@@ -438,7 +438,7 @@
   </notepads>
   <connection>
     <name>MARIAPRU BD</name>
-    <server>172.18.115.53</server>
+    <server>10.238.56.133</server>
     <type>MARIADB</type>
     <access>Native</access>
     <database>portal_clientes</database>
@@ -497,7 +497,7 @@
   </connection>
   <connection>
     <name>SIIF BD</name>
-    <server>172.18.116.9</server>
+    <server>172.18.115.7</server>
     <type>AS/400</type>
     <access>Native</access>
     <database>FINESAAS</database>
@@ -580,7 +580,7 @@ FINECONTAB.POLFN P</sql>
         <name>ID</name>
         <length>15</length>
         <precision>0</precision>
-        <origin>CONSULTA CREHIST</origin>
+        <origin>CONSULTA POLIZAS</origin>
         <comments>ID</comments>
         <conversion_Mask>####0;-####0</conversion_Mask>
         <decimal_symbol>,</decimal_symbol>
@@ -603,7 +603,7 @@ FINECONTAB.POLFN P</sql>
         <name>CREDITO</name>
         <length>17</length>
         <precision>-1</precision>
-        <origin>CONSULTA CREHIST</origin>
+        <origin>CONSULTA POLIZAS</origin>
         <comments>CREDITO</comments>
         <conversion_Mask/>
         <decimal_symbol>,</decimal_symbol>
@@ -626,7 +626,7 @@ FINECONTAB.POLFN P</sql>
         <name>NUM_POLIZA</name>
         <length>17</length>
         <precision>-1</precision>
-        <origin>CONSULTA CREHIST</origin>
+        <origin>CONSULTA POLIZAS</origin>
         <comments>NUM_POLIZA</comments>
         <conversion_Mask/>
         <decimal_symbol>,</decimal_symbol>
@@ -649,7 +649,7 @@ FINECONTAB.POLFN P</sql>
         <name>RAMO</name>
         <length>26</length>
         <precision>-1</precision>
-        <origin>CONSULTA CREHIST</origin>
+        <origin>CONSULTA POLIZAS</origin>
         <comments>RAMO</comments>
         <conversion_Mask/>
         <decimal_symbol>,</decimal_symbol>
@@ -672,7 +672,7 @@ FINECONTAB.POLFN P</sql>
         <name>PLACA</name>
         <length>6</length>
         <precision>-1</precision>
-        <origin>CONSULTA CREHIST</origin>
+        <origin>CONSULTA POLIZAS</origin>
         <comments>PLACA</comments>
         <conversion_Mask/>
         <decimal_symbol>,</decimal_symbol>
@@ -695,7 +695,7 @@ FINECONTAB.POLFN P</sql>
         <name>VALOR_POLIZA</name>
         <length>15</length>
         <precision>2</precision>
-        <origin>CONSULTA CREHIST</origin>
+        <origin>CONSULTA POLIZAS</origin>
         <comments>VALOR_POLIZA</comments>
         <conversion_Mask>####0.0#########;-####0.0#########</conversion_Mask>
         <decimal_symbol>,</decimal_symbol>
@@ -718,7 +718,7 @@ FINECONTAB.POLFN P</sql>
         <name>VIGENCIA</name>
         <length>9</length>
         <precision>0</precision>
-        <origin>CONSULTA CREHIST</origin>
+        <origin>CONSULTA POLIZAS</origin>
         <comments>VIGENCIA</comments>
         <conversion_Mask>####0;-####0</conversion_Mask>
         <decimal_symbol>,</decimal_symbol>
@@ -741,7 +741,7 @@ FINECONTAB.POLFN P</sql>
         <name>ASEGURADORA</name>
         <length>40</length>
         <precision>-1</precision>
-        <origin>CONSULTA CREHIST</origin>
+        <origin>CONSULTA POLIZAS</origin>
         <comments>ASEGURADORA</comments>
         <conversion_Mask/>
         <decimal_symbol>,</decimal_symbol>
@@ -764,7 +764,7 @@ FINECONTAB.POLFN P</sql>
         <name>NUM_ASEGURADORA</name>
         <length>50</length>
         <precision>-1</precision>
-        <origin>CONSULTA CREHIST</origin>
+        <origin>CONSULTA POLIZAS</origin>
         <comments>NUM_ASEGURADORA</comments>
         <conversion_Mask/>
         <decimal_symbol>,</decimal_symbol>
@@ -787,7 +787,7 @@ FINECONTAB.POLFN P</sql>
         <name>INTERMEDIARIO</name>
         <length>50</length>
         <precision>-1</precision>
-        <origin>CONSULTA CREHIST</origin>
+        <origin>CONSULTA POLIZAS</origin>
         <comments>INTERMEDIARIO</comments>
         <conversion_Mask/>
         <decimal_symbol>,</decimal_symbol>
@@ -810,7 +810,7 @@ FINECONTAB.POLFN P</sql>
         <name>NUM_INTERMEDIARIO</name>
         <length>11</length>
         <precision>0</precision>
-        <origin>CONSULTA CREHIST</origin>
+        <origin>CONSULTA POLIZAS</origin>
         <comments>NUM_INTERMEDIARIO</comments>
         <conversion_Mask>####0;-####0</conversion_Mask>
         <decimal_symbol>,</decimal_symbol>
@@ -833,7 +833,7 @@ FINECONTAB.POLFN P</sql>
         <name>FECHA_ACTUALIZACION</name>
         <length>6</length>
         <precision>-1</precision>
-        <origin>CONSULTA CREHIST</origin>
+        <origin>CONSULTA POLIZAS</origin>
         <comments>FECHA_ACTUALIZACION</comments>
         <conversion_Mask/>
         <decimal_symbol>,</decimal_symbol>

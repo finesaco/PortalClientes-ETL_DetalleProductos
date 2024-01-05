@@ -15,7 +15,7 @@ msg = MIMEMultipart()
 
 server = smtplib.SMTP('smtp.office365.com')
 msg['From'] = "reportanalitica@finesa.com.co"
-password = "Has20332"
+password = "8L5sQ]Jslkzv[1Y"
 
 
 message = "Cordial saludo; \n\nEl ETL procedimiento GYGPROPS.SPCREDETFN() correspondiente al ETL detalle productos finanprimas para la fecha: "+fecha_actual

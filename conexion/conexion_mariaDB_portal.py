@@ -2,7 +2,7 @@ import mysql.connector
 
 try:
     credenciales = {
-        "host": '172.18.115.53',    # Cambia esto al host de tu base de datos MariaDB
+        "host": '10.238.56.133',    # Cambia esto al host de tu base de datos MariaDB
         "user": 'desarrollo1',   # Cambia esto a tu nombre de usuario
         "password": 'P4ssw0rd23.*',  # Cambia esto a tu contraseña
         "database": 'portal_clientes'  # Cambia esto al nombre de tu base de datos

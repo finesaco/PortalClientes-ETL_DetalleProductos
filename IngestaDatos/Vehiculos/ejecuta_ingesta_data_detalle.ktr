@@ -438,7 +438,7 @@
   </notepads>
   <connection>
     <name>MARIAPRU BD</name>
-    <server>172.18.115.53</server>
+    <server>10.238.56.133</server>
     <type>MARIADB</type>
     <access>Native</access>
     <database>portal_clientes</database>
@@ -497,7 +497,7 @@
   </connection>
   <connection>
     <name>SIIF BD</name>
-    <server>172.18.116.9</server>
+    <server>172.18.115.7</server>
     <type>AS/400</type>
     <access>Native</access>
     <database>FINESAAS</database>
@@ -835,8 +835,8 @@ FINECONTAB.CREDET P</sql>
       </output>
     </remotesteps>
     <GUI>
-      <xloc>752</xloc>
-      <yloc>304</yloc>
+      <xloc>736</xloc>
+      <yloc>288</yloc>
       <draw>Y</draw>
     </GUI>
   </step>
